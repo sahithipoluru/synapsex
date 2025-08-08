@@ -45,3 +45,5 @@ If using a docs folder strategy, move files into `docs/` and set Pages source to
 
 ## License
 Content & code provided for internal / promotional use of SynapseX. Adapt as needed.
+
+git commit -m "Your commit message"
