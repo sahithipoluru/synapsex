@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="auto">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SynapseX | Adaptive AI Trading Intelligence</title>
+  <meta name="description" content="SynapseX is an autonomous self-learning AI platform for end-to-end market analysis, high-accuracy trade signal generation, and intelligent execution." />
+  <meta name="color-scheme" content="light dark" />
+  <link rel="stylesheet" href="assets/styles.css" />
+  <script defer src="assets/app.js"></script>
+</head>
+<body>
+  <header class="nav" id="top" role="banner">
+    <div class="nav-inner">
+      <a class="nav-brand" href="#top" aria-label="SynapseX home">
+        <span class="nav-logo" aria-hidden="true">∑X</span>
+        <span class="nav-name">SynapseX</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#features">Features</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="waitlist-btn small" data-scroll="#waitlist">Join waitlist</button>
+        <button id="themeButton" class="theme-btn" title="Toggle theme" aria-live="polite">🌗</button>
+      </div>
+      <button class="nav-mobile-toggle" aria-label="Menu" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero-min" aria-labelledby="hero-title">
+      <div class="hero-bg"></div>
+      <div class="hero-min-inner">
+        <div class="hero-text">
+          <div class="status-chip" role="status">Now building the future of trading</div>
+          <h1 id="hero-title">SynapseX - AI Driven <span class="accent-grad">Autonomous</span> Trading System</h1>
+          <p class="hero-lead">SynapseX delivers AI-generated trade signals and market analysis (multi-timeframe + macro) and continuously self‑learns to improve decisions — aiming toward full autonomy.</p>
+          <div class="hero-actions">
+            <button class="waitlist-btn" data-scroll="#waitlist">Join the waitlist</button>
+            <button class="secondary-btn" data-scroll="#features">See features</button>
+          </div>
+          <ul class="hero-badges" aria-label="Key traits">
+            <li>Paper-trade ready</li>
+            <li>AI macro insights</li>
+            <li>Broker-agnostic design</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="features" class="section features-intro">
+      <div class="section-head">
+        <h2>Why <span class="brand-accent-inline">SynapseX</span></h2>
+        <p>Your edge compounds when your tool stays out of the way. <strong>SynapseX</strong> keeps decisions simple, data rich, adaptive, and cost efficient.</p>
+      </div>
+      <div class="feature-grid" role="list">
+        <article class="feature" role="listitem">
+          <div class="f-icon">⚡</div>
+          <h3>AI Signal Engine</h3>
+          <p>Generates high-quality buy/sell signals with clear, explainable context.</p>
+        </article>
+        <article class="feature" role="listitem">
+          <div class="f-icon">📊</div>
+          <h3>AI Macro Analysis</h3>
+          <p>Tracks economic events, sentiment, and trend regime shifts to inform decisions.</p>
+        </article>
+        <article class="feature" role="listitem">
+          <div class="f-icon">🛡️</div>
+          <h3>Risk Guard</h3>
+          <p>Maintains discipline with adaptive risk & exposure guidance.</p>
+        </article>
+        <article class="feature" role="listitem">
+          <div class="f-icon">🔔</div>
+          <h3>Live Insights</h3>
+          <p>Realtime updates & alerts so you can act when it matters.</p>
+        </article>
+        <article class="feature" role="listitem">
+          <div class="f-icon">🌀</div>
+          <h3>Self-Learning</h3>
+          <p>Learns from outcomes to refine signal precision & analysis depth.</p>
+        </article>
+        <article class="feature" role="listitem">
+          <div class="f-icon">🚀</div>
+          <h3>Autonomy Roadmap</h3>
+          <p>Designed to evolve toward a fully autonomous trading stack.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="waitlist" class="section waitlist">
+      <div class="wl-cols">
+        <div class="wl-copy">
+          <h2>Get early access</h2>
+          <p>We’re onboarding a small cohort of early users. Join the waitlist to get updates and a demo invite.</p>
+          <ul class="list-checks">
+            <li>No spam, ever</li>
+            <li>Paper-trading beta first</li>
+            <li>Priority support for feedback</li>
+          </ul>
+        </div>
+        <form class="wl-form" novalidate data-js="waitlist-form" aria-label="Join waitlist form">
+          <label for="email" class="visually-hidden">Email address</label>
+            <div class="input-wrap">
+              <input id="email" name="email" type="email" placeholder="you@company.com" required autocomplete="email" />
+              <span class="input-status" aria-hidden="true">✉️</span>
+            </div>
+            <button type="submit" class="waitlist-btn block">Join waitlist</button>
+            <p class="form-note">By joining, you agree to receive product updates. Unsubscribe anytime.</p>
+            <p class="form-msg" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <section id="faq" class="section faq">
+      <div class="faq-inner">
+        <h2>FAQ</h2>
+        <div class="faq-grid" data-js="faq">
+        <details>
+          <summary>What is SynapseX?</summary>
+          <p>An autonomous, self-learning AI platform for end-to-end market analysis, signal generation, and execution optimization.</p>
+        </details>
+        <details>
+          <summary>Does it self-learn?</summary>
+          <p>Yes. Post-trade attribution and performance drift detection feed continuous model & feature weight refinement.</p>
+        </details>
+        <details>
+          <summary>Is it fully autonomous?</summary>
+          <p>Execution & signal generation can be automated. Human oversight sets guardrails, objectives, and risk bounds.</p>
+        </details>
+        <details>
+          <summary>Which markets are supported?</summary>
+          <p>Designed to adapt across equities, crypto, and FX; initial public release will prioritize liquid digital assets and major FX pairs.</p>
+        </details>
+        <details>
+          <summary>How is my data handled?</summary>
+          <p>All processing is designed to be pipeline-isolated. No external sharing or monetization of proprietary data.</p>
+        </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> SynapseX. Adaptive AI Trading Intelligence.</p>
+  </footer>
+</body>
+</html>
